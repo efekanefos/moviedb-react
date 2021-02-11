@@ -17,11 +17,11 @@ function Header() {
               <Link className="nav-link" to="/">
                 PopularMovies
               </Link>
-              <Link className="nav-link" to="/signup">
-                signup
+              <Link className="nav-link" to="/nowplaying">
+                NowPlaying
               </Link>
-              <Link className="nav-link" to="/login">
-                login
+              <Link className="nav-link" to="/upcoming">
+                Upcoming
               </Link>
           </Nav>
         </Navbar.Collapse>

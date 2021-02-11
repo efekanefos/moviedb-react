@@ -1,6 +1,6 @@
 import React from "react";
-import Login from "./components/Login";
-import SignUp from "./components/SignUp";
+import Upcoming from "./components/Upcoming";
+import NowPlaying from "./components/NowPlaying";
 import Header from "./components/Header";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
@@ -18,11 +18,11 @@ function App() {
                 <Route exact path="/">
                   <PopularMovies />
                 </Route>
-                <Route path="/login">
-                  <Login />
+                <Route path="/upcoming">
+                  <Upcoming />
                 </Route>
-                <Route exact path="/signup">
-                  <SignUp />
+                <Route exact path="/nowplaying">
+                  <NowPlaying />
                 </Route>
               </Switch>
             </Col>

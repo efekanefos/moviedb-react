@@ -1,6 +1,6 @@
 import PopularMovies from "../components/PopularMovies"
-import SignUp from "../components/SignUp"
-import Login from "../components/Login"
+import NowPlaying from "../components/NowPlaying"
+import Upcoming from "../components/Upcoming"
 
 
 
@@ -12,17 +12,17 @@ const pages = [{
     "isActive": true
 },
 {
-    "title": "SignUp",
+    "title": "NowPlaying",
     "exact": false,
-    "component": SignUp,
-    "link": "/signup",
+    "component": NowPlaying,
+    "link": "/nowplaying",
     "isActive": true
 },
 {
-    "title": "Login",
+    "title": "Upcoming",
     "exact": false,
-    "component": Login,
-    "link": "/login",
+    "component": Upcoming,
+    "link": "/upcoming",
     "isActive": true
 }
 ]
