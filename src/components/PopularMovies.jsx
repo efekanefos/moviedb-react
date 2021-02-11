@@ -14,7 +14,7 @@ export default function PopularMovies(){
     return(
         <div>
             <h1>hello</h1>
-            {movies[0]}
+            <h2>efe</h2>
         </div>
     )
 
