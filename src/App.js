@@ -11,11 +11,11 @@ import MovieDetail from "./components/Movies/MovieDetail";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="fontstyle" >
         <Header />
-        <Container fluid>
+        <Container fluid  >
           <Row>
-            <Col>
+            <Col >
               <Switch>
                 <Route exact path="/">
                   <PopularMovies />

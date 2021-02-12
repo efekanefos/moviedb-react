@@ -21,29 +21,29 @@ function Search(props) {
                 setResults([]);
             }
         })
-        console.log("aaa");
+        
     }
 
     return (
         <div>
-            <Container fluid>
+            <Container fluid  >
                 <Row>
                     <input type="text"
                         placeholder="Type and Let the Magic Happen ;)"
                         onChange={onChange}
                         value={query}
-                        className="search"
+                        className="search input-group-text"
                     />
                 </Row>
                 <Row className="text-center" >
                     {results.length > 0 && (
                         results.map((movie, index) => (
                             <Col key={index} xs={12} sm={6} md={4} lg={3} xl={3} className="text-center pb-3" >
-                                <Card className="card-panel mb-3">
+                                <Card className="card-panel mb-3 bg-dark">
                                     <div className="ml-2 map">
                                         <Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
                                         <Card.Body  >
-                                            <Card.Title className="text-width" >{movie.title}</Card.Title>
+                                            <Card.Title className="text-width text-white" >{movie.title}</Card.Title>
                                             <Link
                                                 to={`/movies/${movie.id}`}
                                                 className="btn btn-danger d-block mx-auto"

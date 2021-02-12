@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 .map img{
     width: 13rem !important;
     height: 18rem !important;
@@ -24,4 +26,8 @@
 
 .detailimg{
     width: 250px !important;
+}
+
+.fontstyle{
+    font-family: 'Bangers', cursive;
 }
