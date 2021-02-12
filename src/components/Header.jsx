@@ -17,7 +17,7 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto me-5">
               <Link className="nav-link" to="/">
-                PopularMovies
+              Top Rated Movies
               </Link>
               <Link className="nav-link" to="/nowplaying">
                 NowPlaying

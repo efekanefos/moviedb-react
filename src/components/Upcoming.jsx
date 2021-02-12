@@ -35,7 +35,7 @@ export default function Upcoming() {
             return (
               <Col key={index} xs={12}  sm={12} md={6} lg={6} xl={3} className="text-center pb-3" >
                 <img src={`https://image.tmdb.org/t/p/w200${item.backdrop_path}`} alt="" />
-                <h5>{item.title}</h5>
+                <h5 className="pt-3" >{item.title}</h5>
               </Col>
             )
           })}
