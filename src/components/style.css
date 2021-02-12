@@ -1,0 +1,27 @@
+.map img{
+    width: 13rem !important;
+    height: 18rem !important;
+    padding-top: 8px;
+    margin-left: -0.5rem;
+    
+}
+.text-width{
+    width: 10rem !important;
+    height: 4rem !important;
+}
+
+.card-panel{
+    width: 14rem !important;
+    height: 450px !important;
+    margin: 0 auto;
+}
+
+.search{
+    width: 20rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+.detailimg{
+    width: 250px !important;
+}

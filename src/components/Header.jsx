@@ -1,14 +1,16 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "../components/style.css";
+
 
 function Header() {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand className="ms-5">
           <Link className="text-white nav-link" to="/">
-            React-Bootstrap
+            Movie-Wiki
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -22,6 +24,9 @@ function Header() {
               </Link>
               <Link className="nav-link" to="/upcoming">
                 Upcoming
+              </Link>
+              <Link className="nav-link" to="/search">
+                Search
               </Link>
           </Nav>
         </Navbar.Collapse>
